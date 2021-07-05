@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.geometry("400x250")
+mylabel=Label(root,text="Tkinter")
+mylabel1=Label(root,text="Starting")
+mylabel2=Label(root,text="Ending")
+mylabel.grid(row=1,column=1)
+mylabel1.grid(row=2,column=2)
+mylabel2.grid(row=3,column=3)
+root.mainloop()
