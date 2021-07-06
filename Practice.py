@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.geometry("400x400")
+label=Label(root,text="Name",)
+label.grid(row=0,column=0)
+e1=Entry(root).grid(row=0,column=1)
+label=Label(root,text="Password",)
+label.grid(row=1,column=0)
+e2=Entry(root).grid(row=1,column=1)
+root.mainloop()

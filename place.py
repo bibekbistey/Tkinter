@@ -1,10 +1,10 @@
 from tkinter import *
 top=Tk()
 top.geometry("400x250")
-name=Label(top,text="Name").place(x=10,y=20)
-a1=Entry(top).place(x=30,y=40)
-password=Label(top,text="PASSWORD").place(x=30,y=50)
-a2=Entry(top).place(x=50,y=50)
-address=Label(top,text="ADDRESS").place(x=60,y=50)
-a3=Entry(top).place(x=70,y=80)
+def display():
+    label3 = Button(top, text="Clickme", fg="blue", bg="black", )
+    label3.pack(side=LEFT)
+label = Label(top, text="My name is Bibek Bista",command=display)
+label.pack()
+
 top.mainloop()
